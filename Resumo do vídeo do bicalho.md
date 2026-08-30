@@ -23,7 +23,7 @@ calcula_(nome da operação)
 
 ## Organização das branches
 
-Eu criei uma branch com o nome de cada membro, mas cada tarefa ainda deve ser feita ou adicionada a uma branch com o nome da respectiva tarefa.
+Eu criei uma brunch com o nome de cada membro, mas cada tarefa ainda deve ser feita ou adicionada a uma branch com o nome da respectiva tarefa.
 
 ## Extensões recomendadas
 
