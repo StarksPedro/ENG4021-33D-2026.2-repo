@@ -14,7 +14,7 @@ Assisti o vídeo do Bicalho, esse arquivo é só para avisar vocês que a partir
 
 ## Divisão das operações da calculadora
 
-Para o código da calculadora, cada membro do grupo deverá fazer duas operações. Eu defini da seguinte forma:
+Para o código da calculadora, cada membro do grupo deverá fazer duas operações e o P.O. a função que une todas e pede os valores para o usuário. Eu defini da seguinte forma:
 
 - **Manu** – Soma e percentual
 - **Luiza** – Subtração e exponenciação
