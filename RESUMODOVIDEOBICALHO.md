@@ -35,4 +35,4 @@ Eu criei uma brunch com o nome de cada membro, mas cada tarefa ainda deve ser fe
 
 O Bicalho, no vídeo, recomendou a instalação das extensões do **Python** e do **GitLens**.
 
-Para quem faz C: eu perguntei a ele se o GitHub funciona no Code Studio (o roxo) e ele disse que sim, mas recomendou baixar o VS Code, porque nele é mais fácil de trabalhar.
+Para quem faz C: eu falei com ele se o GitHub funciona no Code Studio (o roxo) e ele disse que sim, mas disse que é melhor baixar o vsCode, porque nele é mais fácil de trabalhar.
