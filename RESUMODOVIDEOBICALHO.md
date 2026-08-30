@@ -8,7 +8,7 @@ Já enviei o forms pra algumas pessoas, é bom que a gente fazer isso logo, pois
 ```
 Assisti o vídeo do Bicalho, esse arquivo é só para avisar vocês que a partir de agora:
 
-- **Não vamos mais utilizar o Drive**, pois, no vídeo, ele informa que o único local onde os itens serão validados é o GitHub, então é mais simples organizar as coisas direto aqui. Se quiser adicionar ao Drive para ficar salvo em outro lugar, não tem problema.
+- **Não vamos mais utilizar o Drive**, pois, no vídeo, ele informa que o único local onde os itens serão validados é o GitHub, então é mais facil organizar as coisas direto aqui. Se quiser adicionar ao Drive para ficar salvo em outro lugar, não tem problema.
 
 - **Toda tarefa será uma branch diferente**, as tarefas individuais não devem ser feitas diretamente na main. Toda tarefa deve ser enviada para a main e colocar o P.O. como reviewer para avaliar.
 
