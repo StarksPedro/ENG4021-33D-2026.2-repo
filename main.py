@@ -1,6 +1,8 @@
-def escolhaDeOperação(n1,n2,Operador):
+def escolhaDeOperação():
     while True:
         operador= input("Escolha uma das operações:\n adição \n subtração \n multiplicação \n divisão\n exponenciação \n raidiciação\n divisão inteira\n porcentagem ou digite 0 para encerrar:").lower()
+        n1= float(input("Digite o primeiro número:"))
+        n2= float(input("Digite o segundo número:")) 
         if operador == "adição":
             Adição = calcula_soma(n1,n2)
         elif operador == "subtração":
@@ -20,3 +22,5 @@ def escolhaDeOperação(n1,n2,Operador):
         elif operador == "0":
             print("Operação encerrada")
             break
+
+escolhaDeOperação()
