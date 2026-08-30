@@ -25,7 +25,7 @@ calcula_(nome da operação)
 
 Eu criei uma brunch com o nome de cada membro, mas cada tarefa ainda deve ser feita ou adicionada a uma branch com o nome da respectiva tarefa.
 
-## Extensões recomendadas
+## Extensões
 
 O Bicalho, no vídeo, recomendou a instalação das extensões do **Python** e do **GitLens**.
 
