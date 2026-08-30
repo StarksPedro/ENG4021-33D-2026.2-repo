@@ -1,0 +1,31 @@
+Assisti o vídeo do bicalho, esse arquivo é so para avisar vocês que a partir de agora 
+'''
+Não resumi aqui como utilizar o github porque ia ser muito dificil descrever so em palavras, é bom assistir o vídeo ele
+'''
+
+"""
+Não vamos mais utilizar o drive 
+"""
+pois, no vídeo, ele informa que o único local onde os itens serão validados é o github, 
+então é mais simples organizar as coisas direto aqui, se quiser adicionar ao drive para ficar salvo em outro lugar não tem problema
+
+"""
+Toda tarefa será uma brunch diferente, as tarefas individuais n devem ser feita diretamente na main
+Toda tarefa deve ser enviada para a main e colocar o P.O. como reviewr para avaliar 
+""" 
+Para o código da calculadora cada membro do grupo deverá fazer duas operações, eu defini da seguinte forma 
+"
+Manu - Soma e percentual
+Luiza - Subtração e Exponenciação
+Daniel - Multiplicação e divisão/ divisão inteira 
+Rodrigo - Resto e Radiciação
+'''
+'''
+Cada operação deve estar em uma função com o nome no estilo "calcula_(nome da operação)"
+'''
+
+eu criei uma brunch com o nome de cada membro, mas cada tarefas ainda deve ser feita ou adicionada a uma brunch com o nome da respectiva tarefa
+
+O bicalho, no vídeo, recomendou a instalação das extensões do python e a GitLens
+Para quem faz C, eu perguntei a ele se o github funciona no Code Studio(o roxo) e ele disse que sim,
+Mas recomendou baixar o vsCode porque nele é mais facil de trabalhar.
