@@ -1,29 +1,32 @@
-Assisti o vídeo do bicalho, esse arquivo é so para avisar vocês que a partir de agora 
-```
-Não resumi aqui como utilizar o github porque ia ser muito dificil descrever so em palavras, é bom assistir o vídeo ele
-```
-``` 
-Não vamos mais utilizar o drive
-``` 
-pois, no vídeo, ele informa que o único local onde os itens serão validados é o github, 
-então é mais simples organizar as coisas direto aqui, se quiser adicionar ao drive para ficar salvo em outro lugar não tem problema
-``` 
-Toda tarefa será uma brunch diferente, as tarefas individuais n devem ser feita diretamente na main
-Toda tarefa deve ser enviada para a main e colocar o P.O. como reviewr para avaliar 
-``` 
-Para o código da calculadora cada membro do grupo deverá fazer duas operações, eu defini da seguinte forma 
-``` 
-Manu - Soma e percentual
-Luiza - Subtração e Exponenciação
-Daniel - Multiplicação e divisão/ divisão inteira 
-Rodrigo - Resto e Radiciação
-``` 
-``` 
-Cada operação deve estar em uma função com o nome no estilo "calcula_(nome da operação)"
-``` 
+Assisti o vídeo do Bicalho, esse arquivo é só para avisar vocês que a partir de agora:
 
-eu criei uma brunch com o nome de cada membro, mas cada tarefas ainda deve ser feita ou adicionada a uma brunch com o nome da respectiva tarefa
+> Não resumi aqui como utilizar o GitHub porque ia ser muito difícil descrever só em palavras, é bom assistir o vídeo dele.
 
-O bicalho, no vídeo, recomendou a instalação das extensões do python e a GitLens
-Para quem faz C, eu perguntei a ele se o github funciona no Code Studio(o roxo) e ele disse que sim,
-Mas recomendou baixar o vsCode porque nele é mais facil de trabalhar.
+- **Não vamos mais utilizar o Drive**, pois, no vídeo, ele informa que o único local onde os itens serão validados é o GitHub, então é mais simples organizar as coisas direto aqui. Se quiser adicionar ao Drive para ficar salvo em outro lugar, não tem problema.
+
+- **Toda tarefa será uma branch diferente**, as tarefas individuais não devem ser feitas diretamente na main. Toda tarefa deve ser enviada para a main e colocar o P.O. como reviewer para avaliar.
+
+## Divisão das operações da calculadora
+
+Para o código da calculadora, cada membro do grupo deverá fazer duas operações. Eu defini da seguinte forma:
+
+- **Manu** – Soma e percentual
+- **Luiza** – Subtração e exponenciação
+- **Daniel** – Multiplicação e divisão / divisão inteira
+- **Rodrigo** – Resto e radiciação
+
+Cada operação deve estar em uma função com o nome no estilo:
+
+```python
+calcula_(nome da operação)
+```
+
+## Organização das branches
+
+Eu criei uma branch com o nome de cada membro, mas cada tarefa ainda deve ser feita ou adicionada a uma branch com o nome da respectiva tarefa.
+
+## Extensões recomendadas
+
+O Bicalho, no vídeo, recomendou a instalação das extensões do **Python** e do **GitLens**.
+
+Para quem faz C: eu perguntei a ele se o GitHub funciona no Code Studio (o roxo) e ele disse que sim, mas recomendou baixar o VS Code, porque nele é mais fácil de trabalhar.
