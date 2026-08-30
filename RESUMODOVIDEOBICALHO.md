@@ -1,6 +1,6 @@
 ```
 
-Já enviei o forms pra algumas pessoas, é bom que a gente faã isso logo, pois algumas tarefas dependem dele
+Já enviei o forms pra algumas pessoas, é bom que a gente fazer isso logo, pois algumas tarefas dependem dele
 
 ```
 ```
