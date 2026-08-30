@@ -1,3 +1,9 @@
+```
+
+Já enviei o forms pra algumas pessoas, é bom que a gente faã isso logo, pois algumas tarefas dependem dele
+
+```
+
 Assisti o vídeo do Bicalho, esse arquivo é só para avisar vocês que a partir de agora:
 
 ```
