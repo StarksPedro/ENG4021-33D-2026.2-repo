@@ -2,7 +2,7 @@ def calcula_soma(x,y):
     return x+y
 
 def calcula_porcentagem(x,y):  #Quero calcular x porcento de y"
-    return (y/100)*x
+    return (x/100)*y
 
 def escolhaDeOperação():
     while True:
