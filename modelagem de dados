@@ -1,0 +1,93 @@
+from django.db import models
+
+
+class Aluno(models.Model):
+    id_aluno = models.AutoField(primary_key=True)
+    email = models.EmailField(unique=True)
+    nome = models.CharField(max_length=100)
+    senha = models.CharField(max_length=128)
+
+    def __str__(self):
+        return self.nome
+
+
+class Pais(models.Model):
+    id_pais = models.AutoField(primary_key=True)
+    nome = models.CharField(max_length=100)
+    continente = models.CharField(max_length=50)
+    idioma_oficial = models.CharField(max_length=100)
+    moeda = models.CharField(max_length=50)
+    requisitos_para_entrar = models.TextField()
+
+    def __str__(self):
+        return self.nome
+
+
+class Universidade(models.Model):
+    id_universidade = models.AutoField(primary_key=True)
+    nome = models.CharField(max_length=200)
+    sigla = models.CharField(max_length=20, unique=True)
+    site_oficial = models.URLField()
+    ranking = models.IntegerField(null=True, blank=True)
+    foto = models.ImageField(
+        upload_to='universidades/',
+        null=True,
+        blank=True
+    )
+    endereco = models.CharField(max_length=300)
+
+    pais = models.ForeignKey(
+        Pais,
+        on_delete=models.CASCADE,
+        related_name='universidades'
+    )
+
+    numero_vagas_disponiveis = models.IntegerField()
+
+    def __str__(self):
+        return self.nome
+
+
+class Programa(models.Model):
+    id_programa = models.AutoField(primary_key=True)
+
+    universidade = models.ForeignKey(
+        Universidade,
+        on_delete=models.CASCADE,
+        related_name='programas'
+    )
+
+    nivel = models.CharField(max_length=50)
+    curso = models.CharField(max_length=100)
+    duracao = models.CharField(max_length=50)
+    prazo_para_inscricao = models.DateField()
+    idioma = models.CharField(max_length=100)
+    tipo_de_intercambio = models.CharField(max_length=100)
+
+    def __str__(self):
+        return f"{self.curso} - {self.universidade.nome}"
+
+
+class Busca(models.Model):
+    aluno = models.ForeignKey(
+        Aluno,
+        on_delete=models.CASCADE,
+        related_name='buscas'
+    )
+
+    universidade = models.ForeignKey(
+        Universidade,
+        on_delete=models.CASCADE,
+        related_name='buscas'
+    )
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=['aluno', 'universidade'],
+                name='unique_busca'
+            )
+        ]
+
+    def __str__(self):
+        return f"{self.aluno.nome} - {self.universidade.nome}"
