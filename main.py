@@ -1,3 +1,9 @@
+def calcula_soma(x,y):
+    return x+y
+
+def calcula_porcentagem(x,y):  #Quero calcular x porcento de y"
+    return (x/100)*y
+
 def escolhaDeOperação():
     while True:
         operador= input("Escolha uma das operações:\n adição \n subtração \n multiplicação \n divisão\n exponenciação \n raidiciação\n divisão inteira\n porcentagem\n ou\n digite 0 para encerrar:").lower()
