@@ -17,7 +17,7 @@ def calcula_radiciação(n1, n2):
             result = result * -1
      else:
          result = n1 ** (1/n2)
-    return result
+     return result
 
 def calcula_multiplicação(n1, n2):
 	return n1 * n2
