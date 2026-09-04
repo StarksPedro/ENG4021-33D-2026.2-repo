@@ -19,7 +19,7 @@ def calcula_divisão(n1, n2):
 def calcula_soma(x,y):
     return x+y
 
-def calcula_porcentagem(x,y):  #Quero calcular x porcento de y"
+def calcula_porcentagem(x,y):
     return (x/100)*y
 
 def escolhaDeOperação():
@@ -100,10 +100,10 @@ def escolhaDeOperação():
             print("----------------")
 
         elif operador == "resto":
-        if n2== 0:
-            print("Não existe resto de divisão por 0")
-            return
-        print("----------------")
+            if n2== 0:
+               print("Não existe resto de divisão por 0")
+               return
+            print("----------------")
             print("\n")
             print(calcula_resto(n1,n2))
             print("\n")
