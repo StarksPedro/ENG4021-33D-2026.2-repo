@@ -1,3 +1,9 @@
+def calcula_multiplicação(n1, n2):
+	return n1 * n2
+
+def calcula_divisão(n1, n2):
+	return n1 / n2
+
 def calcula_soma(x,y):
     return x+y
 
@@ -34,6 +40,9 @@ def escolhaDeOperação():
             print("----------------")
             
         elif operador == "divisão":
+          if n2 == 0:
+            print("Não existe divisão por 0")
+                  return 
             print("----------------")
             print("\n")
             print(calcula_divisão(n1,n2))
