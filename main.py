@@ -1,3 +1,12 @@
+def calcula_exponenciação(n1,n2):
+	return n1**n2
+
+def calcula_subtração(n1,n2):
+	return n1-n2
+
+def divisão_inteira(n1,n2):
+	return n1//n2
+
 def calcula_resto(n1,n2):
     return n1 % n2
 
@@ -25,7 +34,7 @@ def calcula_porcentagem(x,y):
 def escolhaDeOperação():
     while True:
         operador= input("Escolha uma das operações:\n adição \n subtração \n multiplicação \n divisão\n exponenciação \n raidiciação\n divisão inteira\n porcentagem\n resto\n ou\n digite 0 para encerrar:").lower()
-        if operador == "0":
+		if operador == "0":
             print("Operação encerrada")
             break
         n1= float(input("Digite o primeiro número:"))
