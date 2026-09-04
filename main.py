@@ -1,7 +1,7 @@
 def calcula_soma(x,y):
     return x+y
 
-def calcula_porcentagem(x,y):  #Quero calcular x porcento de y"
+def calcula_porcentagem(x,y):
     return (x/100)*y
 
 def escolhaDeOperação():
