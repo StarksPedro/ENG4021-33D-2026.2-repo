@@ -161,3 +161,8 @@ nav a{
      color:#667684;
      font-size: 14px;
 }
+
+mark {
+    background-color: transparent;
+    color: inherit;
+}
