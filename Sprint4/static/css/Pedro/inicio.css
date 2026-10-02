@@ -1,0 +1,168 @@
+   body {
+       background-color: #ffffff;
+       font-family: 'Inter', sans-serif;
+   }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+nav a{
+    display:inline-block;
+    padding:8px 16px;
+    border:1px solid #165dad;
+    border-radius:999px;
+    color:#165dad;
+    text-decoration:none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color:#103b66;
+    text-decoration:none;
+}
+
+.logo span{
+    color :#f4b942;
+}
+
+.hero {
+    background-color: #103b66;
+    color:#ffffff;
+    padding:48px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: linear-gradient(rgba(16,59,102,0.55)),rgba(16,59,102,0.55),url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+}
+
+.selo{
+    background-color: #165dad;
+    color:#ffffff;
+    padding: 8px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.botoes{
+    display: flex;
+    gap:12px;
+}
+
+.botao-azul {
+    display:inline-block;
+    padding:12px 24px;
+    border-radius:999px;
+    text-decoration:none;
+    background-color:#165dad;
+    color:#ffffff; 
+}
+
+.botao-branco{
+    display:inline-block;
+    padding:12px 24px;
+    border-radius:999px;
+    text-decoration:none;
+    background-color: #ffffff;
+    color: #165dad;
+}
+
+.banner{
+    background-color: #eaf3fc;
+    padding: 32px;
+    border-radius: 20px;
+    margin:48px;
+}
+
+.banner h3{
+    color:#103b66;
+    font-size: 20px;
+}
+
+.banner p{
+    color:#667684;
+    font-size: 14px;
+}
+
+.rodape{
+    background-color: #eaf3fc;
+    padding: 56px 48px;
+}
+
+.contatos{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contatos h3{
+    color:#103b66;
+    font-size: 16px;
+}
+
+.contatos p{
+    color: #667684;
+    font-size: 14px;
+}
+
+.paises{
+    padding: 0 48px 48px 48px;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-paises{
+    color:#103b66;
+    font-size: 28px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card{
+    box-sizing: border-box;
+    width: calc(50% - 12px);
+    border:1px solid #dbe4ec;
+    border-radius: 16px;
+    overflow:hidden;
+    text-decoration: none;
+}
+
+.card-texto{
+    padding: 20px;
+}
+
+.card h3{
+    color:#103b66;
+    font-size: 20px;
+}
+
+.card-texto p{
+     color:#667684;
+     font-size: 14px;
+}
+
+mark {
+    background-color: transparent;
+    color: inherit;
+}
