@@ -1,40 +1,155 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #252525;
+    background-color: #ffffff;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 22px 35px;
+    border-bottom: 1px solid #dddddd;
+    gap: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+}
+
+.simbolo-logo {
+    border: 1px solid #777777;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.logo strong {
+    font-size: 19px;
+    color: #174b78;
 }
 
 .menu {
     display: flex;
-    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.menu span {
+    font-size: 14px;
+}
+
+.pagina-atual {
+    color: #174b78;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 55px 30px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 45px 0;
+    color: #174b78;
 }
 
 .contatos {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    border: 1px solid black;
-    margin-top: 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 35px 25px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
 }
 
-main {
-    padding: 20px;
+.contato {
+    flex: 1;
+    min-width: 175px;
 }
 
-main h2 {
-    text-align: center;
+.contato h3 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #174b78;
+}
+
+.contato p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 7px 0;
+}
+
+.contato a {
+    color: #174b78;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contato a:hover {
+    text-decoration: underline;
 }
 
 .redes {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 45px;
 }
 
 .rede {
-    border: 1px solid black;
-    padding: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    min-height: 100px;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    color: #174b78;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f7f9fb;
+}
+
+.rede:hover {
+    background-color: #e7eef5;
+}
+
+@media (max-width: 750px) {
+    header {
+        flex-direction: column;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    main {
+        padding: 35px 20px;
+    }
+
+    main h2 {
+        font-size: 21px;
+    }
+
+    .contatos {
+        flex-direction: column;
+    }
 }
