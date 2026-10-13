@@ -6,97 +6,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos - PUC Global</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'contatos.css' %}">
+    <link rel="stylesheet" href="contatos.css">
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <span class="simbolo-logo">Logo</span>
-            <strong>PUC GLOBAL</strong>
-        </div>
 
-        <div class="menu">
-            <span>Início</span>
-            <span>Universidades</span>
-            <span>Países</span>
-            <span>Processo seletivo</span>
-            <span>Fórum</span>
-            <span class="pagina-atual">Contatos</span>
-            <span>Quem somos</span>
+    <header>
+        <div class="cabecalho">
+
+            <div class="logo">
+                <span class="logo-caixa">Logo</span>
+                <strong>PUC GLOBAL</strong>
+            </div>
+
+            <nav class="menu">
+                <a href="#">Início</a>
+                <a href="#">Universidades</a>
+                <a href="#">Países</a>
+                <a href="#">Processo seletivo</a>
+                <a href="#">Fórum</a>
+                <a href="#" class="selecionado">Contatos</a>
+                <a href="#">Quem somos</a>
+            </nav>
+
         </div>
     </header>
 
     <main>
-        <h2>CONTATO COM A COORDENAÇÃO DE GRADUAÇÃO</h2>
 
-        <div class="contatos">
-            <div class="contato">
-                <h3>Endereço</h3>
-                <p>R. Marquês de São Vicente, 225</p>
-                <p>Gávea, Rio de Janeiro - RJ</p>
-                <p>Edifício Padre Leonel Franca</p>
-            </div>
-
-            <div class="contato">
-                <h3>Email</h3>
-                <p>
-                    <a href="mailto:atende-ccci@puc-rio.br">
-                        atende-ccci@puc-rio.br
-                    </a>
-                </p>
-            </div>
-
-            <div class="contato">
-                <h3>Telefone</h3>
-                <p>
-                    <a href="tel:+552135271578">
-                        +55 21 3527-1578
-                    </a>
-                </p>
-                <p>
-                    <a href="tel:+552135271094">
-                        +55 21 3527-1094
-                    </a>
-                </p>
-            </div>
-
-            <div class="contato">
-                <h3>Instagram</h3>
-                <p>
-                    <a href="https://www.instagram.com/ccci.pucrio/">
-                        @ccci.pucrio
-                    </a>
-                </p>
-            </div>
-
-            <div class="contato">
-                <h3>Horário de funcionamento</h3>
-                <p>Segunda a Sexta-feira</p>
-                <p>Das 09:00 às 12:00</p>
-                <p>Das 14:00 às 17:00</p>
-            </div>
+        <div class="titulo-pagina">
+            CONTATO COM A COORDENAÇÃO DE GRADUAÇÃO
         </div>
 
-        <div class="redes">
-            <a class="rede" href="https://www.instagram.com/ccci.pucrio/">
-                Instagram
-            </a>
+        <div class="caixa-principal">
 
-            <a class="rede" href="https://www.facebook.com/PUCRio/">
-                Facebook
-            </a>
+            <div class="faixa-titulos">
 
-            <a class="rede" href="https://www.youtube.com/@pucrio">
-                YouTube
-            </a>
+                <div class="titulo-contato">
+                    Endereço
+                </div>
 
-            <a class="rede" href="https://www.puc-rio.br/">
-                Site
-            </a>
+                <div class="titulo-contato">
+                    Email
+                </div>
+
+                <div class="titulo-contato">
+                    Telefone
+                </div>
+
+                <div class="titulo-contato">
+                    Instagram
+                </div>
+
+                <div class="titulo-contato">
+                    Horário de funcionamento
+                </div>
+
+            </div>
+
+            <div class="faixa-informacoes">
+
+                <div class="informacao">
+                    <p>R. Marquês de São Vicente, 225</p>
+                    <p>Gávea, Rio de Janeiro - RJ</p>
+                    <p>Edifício Padre Leonel Franca</p>
+                </div>
+
+                <div class="informacao">
+                    <p>
+                        <a href="mailto:atende-ccci@puc-rio.br">
+                            atende-ccci@puc-rio.br
+                        </a>
+                    </p>
+                </div>
+
+                <div class="informacao">
+                    <p>
+                        <a href="tel:+552135271578">
+                            +55 21 3527-1578
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+552135271094">
+                            +55 21 3527-1094
+                        </a>
+                    </p>
+                </div>
+
+                <div class="informacao">
+                    <p>
+                        <a href="https://www.instagram.com/ccci.pucrio/">
+                            @ccci.pucrio
+                        </a>
+                    </p>
+                </div>
+
+                <div class="informacao">
+                    <p>Segunda a Sexta-feira</p>
+                    <p>Das 09:00 às 12:00</p>
+                    <p>Das 14:00 às 17:00</p>
+                </div>
+
+            </div>
+
         </div>
+
+        <div class="redes-sociais">
+
+            <a href="https://www.instagram.com/ccci.pucrio/"
+               class="rede"
+               aria-label="Instagram">
+                ◎
+            </a>
+
+            <a href="https://www.facebook.com/PUCRio/"
+               class="rede"
+               aria-label="Facebook">
+                f
+            </a>
+
+            <a href="https://www.youtube.com/@pucrio"
+               class="rede"
+               aria-label="YouTube">
+                ▶
+            </a>
+
+            <a href="https://www.puc-rio.br/"
+               class="rede"
+               aria-label="Site da PUC-Rio">
+                ⊕
+            </a>
+
+        </div>
+
     </main>
-</body>
 
+</body>
 </html>
